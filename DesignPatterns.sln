@@ -68,6 +68,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - AbstractFactory", "03 
 		Images\Patterns\01.Creational\03 - AbstractFactory\5.AbstractFactoryRelatedPatterns.PNG = Images\Patterns\01.Creational\03 - AbstractFactory\5.AbstractFactoryRelatedPatterns.PNG
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Builder", "04 - Builder", "{D8299F36-FF91-45DD-A476-3A055D137571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Patterns\01.Creational\04 - Builder\Builder\Builder.csproj", "{9D2E2930-29D0-48F4-B64A-8BF242AE5B6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Builder", "04 - Builder", "{ADF0C369-925E-4A33-B339-DFEA3183F06A}"
+	ProjectSection(SolutionItems) = preProject
+		Images\Patterns\01.Creational\04 - Builder\1.Builder.png = Images\Patterns\01.Creational\04 - Builder\1.Builder.png
+		Images\Patterns\01.Creational\04 - Builder\2.BuilderUsecases.png = Images\Patterns\01.Creational\04 - Builder\2.BuilderUsecases.png
+		Images\Patterns\01.Creational\04 - Builder\3.BuilderConsequences.PNG = Images\Patterns\01.Creational\04 - Builder\3.BuilderConsequences.PNG
+		Images\Patterns\01.Creational\04 - Builder\4.BuilderRelatedPatterns.PNG = Images\Patterns\01.Creational\04 - Builder\4.BuilderRelatedPatterns.PNG
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +98,10 @@ Global
 		{9935A6D6-26D3-4EB7-879E-FCB92C3B9547}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9935A6D6-26D3-4EB7-879E-FCB92C3B9547}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9935A6D6-26D3-4EB7-879E-FCB92C3B9547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D2E2930-29D0-48F4-B64A-8BF242AE5B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D2E2930-29D0-48F4-B64A-8BF242AE5B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D2E2930-29D0-48F4-B64A-8BF242AE5B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D2E2930-29D0-48F4-B64A-8BF242AE5B6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -107,5 +123,8 @@ Global
 		{0C0009E4-ADD1-4EF0-8CE5-B480820EDF58} = {F4A76E14-920A-4C95-9E7C-E90BA938D393}
 		{9935A6D6-26D3-4EB7-879E-FCB92C3B9547} = {0C0009E4-ADD1-4EF0-8CE5-B480820EDF58}
 		{E3FF9EE7-A4E0-4DB3-BCD7-DEFFD357B884} = {121A84D4-2A05-4DED-9F1F-6BC7E329192F}
+		{D8299F36-FF91-45DD-A476-3A055D137571} = {F4A76E14-920A-4C95-9E7C-E90BA938D393}
+		{9D2E2930-29D0-48F4-B64A-8BF242AE5B6F} = {D8299F36-FF91-45DD-A476-3A055D137571}
+		{ADF0C369-925E-4A33-B339-DFEA3183F06A} = {121A84D4-2A05-4DED-9F1F-6BC7E329192F}
 	EndGlobalSection
 EndGlobal
