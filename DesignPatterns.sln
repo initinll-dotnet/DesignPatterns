@@ -35,17 +35,38 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Structural", "02.Structu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Behavioral", "03.Behavioral", "{C8111486-ABDF-43F8-8062-A21FD1706245}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Singleton", "01.Singleton", "{9BDC35A1-0CC2-483E-986F-829791929E4E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Singleton", "01 - Singleton", "{9BDC35A1-0CC2-483E-986F-829791929E4E}"
 	ProjectSection(SolutionItems) = preProject
-		images\Patterns\01.Creational\01.Singleton\1.Singleton.png = images\Patterns\01.Creational\01.Singleton\1.Singleton.png
-		images\Patterns\01.Creational\01.Singleton\2.SingletonUsecases.PNG = images\Patterns\01.Creational\01.Singleton\2.SingletonUsecases.PNG
-		images\Patterns\01.Creational\01.Singleton\3.SingletonConsequences.PNG = images\Patterns\01.Creational\01.Singleton\3.SingletonConsequences.PNG
-		images\Patterns\01.Creational\01.Singleton\4.SingletonRelatedPatterns.PNG = images\Patterns\01.Creational\01.Singleton\4.SingletonRelatedPatterns.PNG
+		Images\Patterns\01.Creational\01 - Singleton\1.Singleton.png = Images\Patterns\01.Creational\01 - Singleton\1.Singleton.png
+		Images\Patterns\01.Creational\01 - Singleton\2.SingletonUsecases.PNG = Images\Patterns\01.Creational\01 - Singleton\2.SingletonUsecases.PNG
+		Images\Patterns\01.Creational\01 - Singleton\3.SingletonConsequences.PNG = Images\Patterns\01.Creational\01 - Singleton\3.SingletonConsequences.PNG
+		Images\Patterns\01.Creational\01 - Singleton\4.SingletonRelatedPatterns.PNG = Images\Patterns\01.Creational\01 - Singleton\4.SingletonRelatedPatterns.PNG
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Factory", "02 - Factory", "{48B44422-130D-42F5-A7AD-7C60964656AF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Patterns\01.Creational\02 - Factory\Factory\Factory.csproj", "{D55ED4B9-796F-4DF8-A441-DDC939CA9AFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Factory", "02 - Factory", "{703C0C04-639E-4966-A572-6E64613ED53B}"
+	ProjectSection(SolutionItems) = preProject
+		Images\Patterns\01.Creational\02 - Factory\1.Factory.PNG = Images\Patterns\01.Creational\02 - Factory\1.Factory.PNG
+		Images\Patterns\01.Creational\02 - Factory\2.FactoryUsecases.PNG = Images\Patterns\01.Creational\02 - Factory\2.FactoryUsecases.PNG
+		Images\Patterns\01.Creational\02 - Factory\3.FactoryConsequences.PNG = Images\Patterns\01.Creational\02 - Factory\3.FactoryConsequences.PNG
+		Images\Patterns\01.Creational\02 - Factory\4.FactoryRelatedPatterns.PNG = Images\Patterns\01.Creational\02 - Factory\4.FactoryRelatedPatterns.PNG
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - AbstractFactory", "03 - AbstractFactory", "{0C0009E4-ADD1-4EF0-8CE5-B480820EDF58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "Patterns\01.Creational\03 - AbstractFactory\AbstractFactory\AbstractFactory.csproj", "{9935A6D6-26D3-4EB7-879E-FCB92C3B9547}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - AbstractFactory", "03 - AbstractFactory", "{E3FF9EE7-A4E0-4DB3-BCD7-DEFFD357B884}"
+	ProjectSection(SolutionItems) = preProject
+		Images\Patterns\01.Creational\03 - AbstractFactory\1.AbstractFactory.png = Images\Patterns\01.Creational\03 - AbstractFactory\1.AbstractFactory.png
+		Images\Patterns\01.Creational\03 - AbstractFactory\2.AbstractFactoryUsecases.png = Images\Patterns\01.Creational\03 - AbstractFactory\2.AbstractFactoryUsecases.png
+		Images\Patterns\01.Creational\03 - AbstractFactory\3.AbstractFactoryConsequences.png = Images\Patterns\01.Creational\03 - AbstractFactory\3.AbstractFactoryConsequences.png
+		Images\Patterns\01.Creational\03 - AbstractFactory\4.AbstractVsFactoryComparison.PNG = Images\Patterns\01.Creational\03 - AbstractFactory\4.AbstractVsFactoryComparison.PNG
+		Images\Patterns\01.Creational\03 - AbstractFactory\5.AbstractFactoryRelatedPatterns.PNG = Images\Patterns\01.Creational\03 - AbstractFactory\5.AbstractFactoryRelatedPatterns.PNG
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +82,10 @@ Global
 		{D55ED4B9-796F-4DF8-A441-DDC939CA9AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D55ED4B9-796F-4DF8-A441-DDC939CA9AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D55ED4B9-796F-4DF8-A441-DDC939CA9AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9935A6D6-26D3-4EB7-879E-FCB92C3B9547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9935A6D6-26D3-4EB7-879E-FCB92C3B9547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9935A6D6-26D3-4EB7-879E-FCB92C3B9547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9935A6D6-26D3-4EB7-879E-FCB92C3B9547}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,5 +103,9 @@ Global
 		{9BDC35A1-0CC2-483E-986F-829791929E4E} = {121A84D4-2A05-4DED-9F1F-6BC7E329192F}
 		{48B44422-130D-42F5-A7AD-7C60964656AF} = {F4A76E14-920A-4C95-9E7C-E90BA938D393}
 		{D55ED4B9-796F-4DF8-A441-DDC939CA9AFA} = {48B44422-130D-42F5-A7AD-7C60964656AF}
+		{703C0C04-639E-4966-A572-6E64613ED53B} = {121A84D4-2A05-4DED-9F1F-6BC7E329192F}
+		{0C0009E4-ADD1-4EF0-8CE5-B480820EDF58} = {F4A76E14-920A-4C95-9E7C-E90BA938D393}
+		{9935A6D6-26D3-4EB7-879E-FCB92C3B9547} = {0C0009E4-ADD1-4EF0-8CE5-B480820EDF58}
+		{E3FF9EE7-A4E0-4DB3-BCD7-DEFFD357B884} = {121A84D4-2A05-4DED-9F1F-6BC7E329192F}
 	EndGlobalSection
 EndGlobal
