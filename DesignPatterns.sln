@@ -11,13 +11,42 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Singleton", "01 - Sing
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Patterns\01.Creational\01 - Singleton\Singleton\Singleton.csproj", "{7A9EC48C-C90C-41EE-A4FA-75863B9071CC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{94444CC5-07A9-4C7F-AEDB-C172A6C66441}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{E4DE71FC-DFED-4706-BB5D-86E617313C1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GOF", "GOF", "{D451319B-E2A4-48AC-865D-0963667F110B}"
+	ProjectSection(SolutionItems) = preProject
+		images\GOF\0_GOF_Patterns.png = images\GOF\0_GOF_Patterns.png
+		images\GOF\1_CreationalPattern.PNG = images\GOF\1_CreationalPattern.PNG
+		images\GOF\2_StructuralPattern.PNG = images\GOF\2_StructuralPattern.PNG
+		images\GOF\3_BehavioralPattern.PNG = images\GOF\3_BehavioralPattern.PNG
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{C1398959-F647-4BED-A412-6529CCB5818F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Creational", "01.Creational", "{121A84D4-2A05-4DED-9F1F-6BC7E329192F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Structural", "02.Structural", "{E2D80E52-9C17-4A4D-8113-B619A1814D57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Behavioral", "03.Behavioral", "{C8111486-ABDF-43F8-8062-A21FD1706245}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Singleton", "01.Singleton", "{9BDC35A1-0CC2-483E-986F-829791929E4E}"
+	ProjectSection(SolutionItems) = preProject
+		images\Patterns\01.Creational\01.Singleton\1.Singleton.png = images\Patterns\01.Creational\01.Singleton\1.Singleton.png
+		images\Patterns\01.Creational\01.Singleton\2.SingletonUsecases.PNG = images\Patterns\01.Creational\01.Singleton\2.SingletonUsecases.PNG
+		images\Patterns\01.Creational\01.Singleton\3.SingletonConsequences.PNG = images\Patterns\01.Creational\01.Singleton\3.SingletonConsequences.PNG
+		images\Patterns\01.Creational\01.Singleton\4.SingletonRelatedPatterns.PNG = images\Patterns\01.Creational\01.Singleton\4.SingletonRelatedPatterns.PNG
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7A9EC48C-C90C-41EE-A4FA-75863B9071CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -25,9 +54,19 @@ Global
 		{7A9EC48C-C90C-41EE-A4FA-75863B9071CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A9EC48C-C90C-41EE-A4FA-75863B9071CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F4A76E14-920A-4C95-9E7C-E90BA938D393} = {1126C9B7-DAD3-4016-A57B-3C61029A5888}
 		{3212E528-5CEB-4EE1-813C-9623E7D06F50} = {F4A76E14-920A-4C95-9E7C-E90BA938D393}
 		{7A9EC48C-C90C-41EE-A4FA-75863B9071CC} = {3212E528-5CEB-4EE1-813C-9623E7D06F50}
+		{E4DE71FC-DFED-4706-BB5D-86E617313C1F} = {94444CC5-07A9-4C7F-AEDB-C172A6C66441}
+		{D451319B-E2A4-48AC-865D-0963667F110B} = {E4DE71FC-DFED-4706-BB5D-86E617313C1F}
+		{C1398959-F647-4BED-A412-6529CCB5818F} = {E4DE71FC-DFED-4706-BB5D-86E617313C1F}
+		{121A84D4-2A05-4DED-9F1F-6BC7E329192F} = {C1398959-F647-4BED-A412-6529CCB5818F}
+		{E2D80E52-9C17-4A4D-8113-B619A1814D57} = {C1398959-F647-4BED-A412-6529CCB5818F}
+		{C8111486-ABDF-43F8-8062-A21FD1706245} = {C1398959-F647-4BED-A412-6529CCB5818F}
+		{9BDC35A1-0CC2-483E-986F-829791929E4E} = {121A84D4-2A05-4DED-9F1F-6BC7E329192F}
 	EndGlobalSection
 EndGlobal
