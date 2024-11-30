@@ -168,6 +168,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - Proxy", "06 - Proxy", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Patterns\02.Structural\06 - Proxy\Proxy\Proxy.csproj", "{D61D92B1-A56C-46BA-BD41-8F5883598AD2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 - Flyweight", "07 - Flyweight", "{81A1AAE9-3844-405F-9400-C0B3585A9DDA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 - Flyweight", "07 - Flyweight", "{72090214-3BA8-4D61-B26B-1BA5287D7EC9}"
+	ProjectSection(SolutionItems) = preProject
+		Images\Patterns\02.Structural\07 - Flyweight\1.Flyweight.png = Images\Patterns\02.Structural\07 - Flyweight\1.Flyweight.png
+		Images\Patterns\02.Structural\07 - Flyweight\2.FlyweightUsecases.png = Images\Patterns\02.Structural\07 - Flyweight\2.FlyweightUsecases.png
+		Images\Patterns\02.Structural\07 - Flyweight\3.FlyweightConsequences.PNG = Images\Patterns\02.Structural\07 - Flyweight\3.FlyweightConsequences.PNG
+		Images\Patterns\02.Structural\07 - Flyweight\4.FlyweightRelatedPatterns.PNG = Images\Patterns\02.Structural\07 - Flyweight\4.FlyweightRelatedPatterns.PNG
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Patterns\02.Structural\07 - Flyweight\Flyweight\Flyweight.csproj", "{0DB7288E-16CD-461A-B331-3DAD485CD81E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -222,6 +234,10 @@ Global
 		{D61D92B1-A56C-46BA-BD41-8F5883598AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D61D92B1-A56C-46BA-BD41-8F5883598AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D61D92B1-A56C-46BA-BD41-8F5883598AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DB7288E-16CD-461A-B331-3DAD485CD81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB7288E-16CD-461A-B331-3DAD485CD81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB7288E-16CD-461A-B331-3DAD485CD81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB7288E-16CD-461A-B331-3DAD485CD81E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -269,5 +285,8 @@ Global
 		{79A91B12-6795-4532-A400-A3A055FE67B9} = {A8FE2519-E293-47AA-A2FE-3B5D9C1ADFA2}
 		{702C6209-EFE4-4BAB-80DA-381EFD53B6D2} = {E2D80E52-9C17-4A4D-8113-B619A1814D57}
 		{D61D92B1-A56C-46BA-BD41-8F5883598AD2} = {79A91B12-6795-4532-A400-A3A055FE67B9}
+		{81A1AAE9-3844-405F-9400-C0B3585A9DDA} = {A8FE2519-E293-47AA-A2FE-3B5D9C1ADFA2}
+		{72090214-3BA8-4D61-B26B-1BA5287D7EC9} = {E2D80E52-9C17-4A4D-8113-B619A1814D57}
+		{0DB7288E-16CD-461A-B331-3DAD485CD81E} = {81A1AAE9-3844-405F-9400-C0B3585A9DDA}
 	EndGlobalSection
 EndGlobal
