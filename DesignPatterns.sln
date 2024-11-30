@@ -123,6 +123,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Decorator", "03 - Decorator", "{C6632763-D777-42A3-A380-61C39DEC09F8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Decorator", "03 - Decorator", "{9739E7D7-B4D6-4AA2-B22D-BB7FDB6EB2B2}"
+	ProjectSection(SolutionItems) = preProject
+		Images\Patterns\02.Structural\03 - Decorator\1.Decorator.png = Images\Patterns\02.Structural\03 - Decorator\1.Decorator.png
+		Images\Patterns\02.Structural\03 - Decorator\2.DecoratorUsecases.png = Images\Patterns\02.Structural\03 - Decorator\2.DecoratorUsecases.png
+		Images\Patterns\02.Structural\03 - Decorator\3.DecoratorConsequences.PNG = Images\Patterns\02.Structural\03 - Decorator\3.DecoratorConsequences.PNG
+		Images\Patterns\02.Structural\03 - Decorator\4.DecoratorRelatedPatterns.PNG = Images\Patterns\02.Structural\03 - Decorator\4.DecoratorRelatedPatterns.PNG
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Patterns\02.Structural\03 - Decorator\Decorator\Decorator.csproj", "{79828D50-1709-4AB4-84C2-705E0B3763B2}"
 EndProject
