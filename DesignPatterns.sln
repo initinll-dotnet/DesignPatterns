@@ -120,6 +120,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Bridge", "02 - Bridge"
 		Images\Patterns\02.Structural\02 - Bridge\4.BridgeRelatedPatterns.PNG = Images\Patterns\02.Structural\02 - Bridge\4.BridgeRelatedPatterns.PNG
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Decorator", "03 - Decorator", "{C6632763-D777-42A3-A380-61C39DEC09F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Decorator", "03 - Decorator", "{9739E7D7-B4D6-4AA2-B22D-BB7FDB6EB2B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Patterns\02.Structural\03 - Decorator\Decorator\Decorator.csproj", "{79828D50-1709-4AB4-84C2-705E0B3763B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -158,6 +164,10 @@ Global
 		{38CF18E5-8ED0-4682-8AD8-436E59810BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38CF18E5-8ED0-4682-8AD8-436E59810BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38CF18E5-8ED0-4682-8AD8-436E59810BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79828D50-1709-4AB4-84C2-705E0B3763B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79828D50-1709-4AB4-84C2-705E0B3763B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79828D50-1709-4AB4-84C2-705E0B3763B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79828D50-1709-4AB4-84C2-705E0B3763B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -193,5 +203,8 @@ Global
 		{1FDF93D4-72EA-4460-91E5-257BBE44F6BA} = {A8FE2519-E293-47AA-A2FE-3B5D9C1ADFA2}
 		{38CF18E5-8ED0-4682-8AD8-436E59810BC9} = {1FDF93D4-72EA-4460-91E5-257BBE44F6BA}
 		{A1B074BA-CC0F-4501-9C44-31F3CFB0F27D} = {E2D80E52-9C17-4A4D-8113-B619A1814D57}
+		{C6632763-D777-42A3-A380-61C39DEC09F8} = {A8FE2519-E293-47AA-A2FE-3B5D9C1ADFA2}
+		{9739E7D7-B4D6-4AA2-B22D-BB7FDB6EB2B2} = {E2D80E52-9C17-4A4D-8113-B619A1814D57}
+		{79828D50-1709-4AB4-84C2-705E0B3763B2} = {C6632763-D777-42A3-A380-61C39DEC09F8}
 	EndGlobalSection
 EndGlobal
