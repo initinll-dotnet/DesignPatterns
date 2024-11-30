@@ -92,6 +92,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Prototype", "05 - Prot
 		Images\Patterns\01.Creational\05 - Prototype\4.PrototypeRelatedPatterns.PNG = Images\Patterns\01.Creational\05 - Prototype\4.PrototypeRelatedPatterns.PNG
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Structural", "02.Structural", "{A8FE2519-E293-47AA-A2FE-3B5D9C1ADFA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Adapter", "01 - Adapter", "{8537F137-BAB7-4F5A-A671-EA88EDBBF1A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectAdapter", "Patterns\02.Structural\01 - Adapter\ObjectAdapter\ObjectAdapter.csproj", "{8980BF3D-2913-4E8D-986E-D737AACB4693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassAdapter", "Patterns\02.Structural\01 - Adapter\ClassAdapter\ClassAdapter.csproj", "{12E3C2E7-B03A-4ABE-804C-44A54D71F3C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Adapter", "01 - Adapter", "{29792D5A-63BF-4BA3-B4C9-DF5DD907B742}"
+	ProjectSection(SolutionItems) = preProject
+		Images\Patterns\02.Structural\01- Adapter\1.ObjectAndClassAdapter.png = Images\Patterns\02.Structural\01- Adapter\1.ObjectAndClassAdapter.png
+		Images\Patterns\02.Structural\01- Adapter\2.AdapterUsecases.png = Images\Patterns\02.Structural\01- Adapter\2.AdapterUsecases.png
+		Images\Patterns\02.Structural\01- Adapter\3.AdapterConsequences.PNG = Images\Patterns\02.Structural\01- Adapter\3.AdapterConsequences.PNG
+		Images\Patterns\02.Structural\01- Adapter\4.AdapterRelatedPatterns.PNG = Images\Patterns\02.Structural\01- Adapter\4.AdapterRelatedPatterns.PNG
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -118,6 +134,14 @@ Global
 		{5057C644-A6E2-4997-860E-09AE358D803E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5057C644-A6E2-4997-860E-09AE358D803E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5057C644-A6E2-4997-860E-09AE358D803E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8980BF3D-2913-4E8D-986E-D737AACB4693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8980BF3D-2913-4E8D-986E-D737AACB4693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8980BF3D-2913-4E8D-986E-D737AACB4693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8980BF3D-2913-4E8D-986E-D737AACB4693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12E3C2E7-B03A-4ABE-804C-44A54D71F3C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E3C2E7-B03A-4ABE-804C-44A54D71F3C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E3C2E7-B03A-4ABE-804C-44A54D71F3C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E3C2E7-B03A-4ABE-804C-44A54D71F3C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -145,5 +169,10 @@ Global
 		{B98ED37B-241D-4030-8FA8-72EA94C72FBE} = {F4A76E14-920A-4C95-9E7C-E90BA938D393}
 		{5057C644-A6E2-4997-860E-09AE358D803E} = {B98ED37B-241D-4030-8FA8-72EA94C72FBE}
 		{C4C62EA1-549B-48DE-AC27-8F086A1DCB5E} = {121A84D4-2A05-4DED-9F1F-6BC7E329192F}
+		{A8FE2519-E293-47AA-A2FE-3B5D9C1ADFA2} = {1126C9B7-DAD3-4016-A57B-3C61029A5888}
+		{8537F137-BAB7-4F5A-A671-EA88EDBBF1A4} = {A8FE2519-E293-47AA-A2FE-3B5D9C1ADFA2}
+		{8980BF3D-2913-4E8D-986E-D737AACB4693} = {8537F137-BAB7-4F5A-A671-EA88EDBBF1A4}
+		{12E3C2E7-B03A-4ABE-804C-44A54D71F3C2} = {8537F137-BAB7-4F5A-A671-EA88EDBBF1A4}
+		{29792D5A-63BF-4BA3-B4C9-DF5DD907B742} = {E2D80E52-9C17-4A4D-8113-B619A1814D57}
 	EndGlobalSection
 EndGlobal
