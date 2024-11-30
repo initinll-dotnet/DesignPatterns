@@ -144,6 +144,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Composite", "04 - Comp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Patterns\02.Structural\04 - Composite\Composite\Composite.csproj", "{55E048FA-3C63-4C9F-ACA8-349E4EEB28E9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Facade", "05 - Facade", "{37A4C759-14B3-46BC-92E2-F21C355F8A0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Patterns\02.Structural\05 - Facade\Facade\Facade.csproj", "{0E696120-3FD3-4911-9E09-B14B2D6FC455}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Facade", "05 - Facade", "{6A7EE78C-0E2E-4EC6-AC69-EF4C49D7F759}"
+	ProjectSection(SolutionItems) = preProject
+		Images\Patterns\02.Structural\05 - Facade\1.Facade.png = Images\Patterns\02.Structural\05 - Facade\1.Facade.png
+		Images\Patterns\02.Structural\05 - Facade\2.FacadeUsecases.png = Images\Patterns\02.Structural\05 - Facade\2.FacadeUsecases.png
+		Images\Patterns\02.Structural\05 - Facade\3.FacadeConsequences.PNG = Images\Patterns\02.Structural\05 - Facade\3.FacadeConsequences.PNG
+		Images\Patterns\02.Structural\05 - Facade\4.FacadeRelatedPatterns.PNG = Images\Patterns\02.Structural\05 - Facade\4.FacadeRelatedPatterns.PNG
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -190,6 +202,10 @@ Global
 		{55E048FA-3C63-4C9F-ACA8-349E4EEB28E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55E048FA-3C63-4C9F-ACA8-349E4EEB28E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55E048FA-3C63-4C9F-ACA8-349E4EEB28E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E696120-3FD3-4911-9E09-B14B2D6FC455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E696120-3FD3-4911-9E09-B14B2D6FC455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E696120-3FD3-4911-9E09-B14B2D6FC455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E696120-3FD3-4911-9E09-B14B2D6FC455}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -231,5 +247,8 @@ Global
 		{4E643D6D-50A5-4616-ADD0-712F2B836E0E} = {E2D80E52-9C17-4A4D-8113-B619A1814D57}
 		{CDF0C7E6-F3FD-419C-A045-3F427DEFC310} = {A8FE2519-E293-47AA-A2FE-3B5D9C1ADFA2}
 		{55E048FA-3C63-4C9F-ACA8-349E4EEB28E9} = {CDF0C7E6-F3FD-419C-A045-3F427DEFC310}
+		{37A4C759-14B3-46BC-92E2-F21C355F8A0F} = {A8FE2519-E293-47AA-A2FE-3B5D9C1ADFA2}
+		{0E696120-3FD3-4911-9E09-B14B2D6FC455} = {37A4C759-14B3-46BC-92E2-F21C355F8A0F}
+		{6A7EE78C-0E2E-4EC6-AC69-EF4C49D7F759} = {E2D80E52-9C17-4A4D-8113-B619A1814D57}
 	EndGlobalSection
 EndGlobal
