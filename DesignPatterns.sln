@@ -102,10 +102,22 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassAdapter", "Patterns\02
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Adapter", "01 - Adapter", "{29792D5A-63BF-4BA3-B4C9-DF5DD907B742}"
 	ProjectSection(SolutionItems) = preProject
-		Images\Patterns\02.Structural\01- Adapter\1.ObjectAndClassAdapter.png = Images\Patterns\02.Structural\01- Adapter\1.ObjectAndClassAdapter.png
-		Images\Patterns\02.Structural\01- Adapter\2.AdapterUsecases.png = Images\Patterns\02.Structural\01- Adapter\2.AdapterUsecases.png
-		Images\Patterns\02.Structural\01- Adapter\3.AdapterConsequences.PNG = Images\Patterns\02.Structural\01- Adapter\3.AdapterConsequences.PNG
-		Images\Patterns\02.Structural\01- Adapter\4.AdapterRelatedPatterns.PNG = Images\Patterns\02.Structural\01- Adapter\4.AdapterRelatedPatterns.PNG
+		Images\Patterns\02.Structural\01 - Adapter\1.ObjectAndClassAdapter.png = Images\Patterns\02.Structural\01 - Adapter\1.ObjectAndClassAdapter.png
+		Images\Patterns\02.Structural\01 - Adapter\2.AdapterUsecases.png = Images\Patterns\02.Structural\01 - Adapter\2.AdapterUsecases.png
+		Images\Patterns\02.Structural\01 - Adapter\3.AdapterConsequences.PNG = Images\Patterns\02.Structural\01 - Adapter\3.AdapterConsequences.PNG
+		Images\Patterns\02.Structural\01 - Adapter\4.AdapterRelatedPatterns.PNG = Images\Patterns\02.Structural\01 - Adapter\4.AdapterRelatedPatterns.PNG
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Bridge", "02 - Bridge", "{1FDF93D4-72EA-4460-91E5-257BBE44F6BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Patterns\02.Structural\02 - Bridge\Bridge\Bridge.csproj", "{38CF18E5-8ED0-4682-8AD8-436E59810BC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Bridge", "02 - Bridge", "{A1B074BA-CC0F-4501-9C44-31F3CFB0F27D}"
+	ProjectSection(SolutionItems) = preProject
+		Images\Patterns\02.Structural\02 - Bridge\1.Bridge.png = Images\Patterns\02.Structural\02 - Bridge\1.Bridge.png
+		Images\Patterns\02.Structural\02 - Bridge\2.BridgeUsecases.png = Images\Patterns\02.Structural\02 - Bridge\2.BridgeUsecases.png
+		Images\Patterns\02.Structural\02 - Bridge\3.BridgeConsequences.PNG = Images\Patterns\02.Structural\02 - Bridge\3.BridgeConsequences.PNG
+		Images\Patterns\02.Structural\02 - Bridge\4.BridgeRelatedPatterns.PNG = Images\Patterns\02.Structural\02 - Bridge\4.BridgeRelatedPatterns.PNG
 	EndProjectSection
 EndProject
 Global
@@ -142,6 +154,10 @@ Global
 		{12E3C2E7-B03A-4ABE-804C-44A54D71F3C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12E3C2E7-B03A-4ABE-804C-44A54D71F3C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12E3C2E7-B03A-4ABE-804C-44A54D71F3C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38CF18E5-8ED0-4682-8AD8-436E59810BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38CF18E5-8ED0-4682-8AD8-436E59810BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38CF18E5-8ED0-4682-8AD8-436E59810BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38CF18E5-8ED0-4682-8AD8-436E59810BC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -174,5 +190,8 @@ Global
 		{8980BF3D-2913-4E8D-986E-D737AACB4693} = {8537F137-BAB7-4F5A-A671-EA88EDBBF1A4}
 		{12E3C2E7-B03A-4ABE-804C-44A54D71F3C2} = {8537F137-BAB7-4F5A-A671-EA88EDBBF1A4}
 		{29792D5A-63BF-4BA3-B4C9-DF5DD907B742} = {E2D80E52-9C17-4A4D-8113-B619A1814D57}
+		{1FDF93D4-72EA-4460-91E5-257BBE44F6BA} = {A8FE2519-E293-47AA-A2FE-3B5D9C1ADFA2}
+		{38CF18E5-8ED0-4682-8AD8-436E59810BC9} = {1FDF93D4-72EA-4460-91E5-257BBE44F6BA}
+		{A1B074BA-CC0F-4501-9C44-31F3CFB0F27D} = {E2D80E52-9C17-4A4D-8113-B619A1814D57}
 	EndGlobalSection
 EndGlobal
