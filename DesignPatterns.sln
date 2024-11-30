@@ -194,6 +194,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - TemplateMethod", "01 -
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "Patterns\03.Behavioral\01 - TemplateMethod\TemplateMethod\TemplateMethod.csproj", "{D768E174-3FA6-4B25-ABAE-01973FC237E8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Strategy", "02 - Strategy", "{2856BF7E-FC77-42E1-8600-E152B374CC32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Strategy", "02 - Strategy", "{804FD5A1-C4C7-4CA1-A987-2CB230EF499B}"
+	ProjectSection(SolutionItems) = preProject
+		Images\Patterns\03.Behavioral\02 - Strategy\1.Strategy.png = Images\Patterns\03.Behavioral\02 - Strategy\1.Strategy.png
+		Images\Patterns\03.Behavioral\02 - Strategy\2.StrategyUsecases.png = Images\Patterns\03.Behavioral\02 - Strategy\2.StrategyUsecases.png
+		Images\Patterns\03.Behavioral\02 - Strategy\3.StrategyConsequences.png = Images\Patterns\03.Behavioral\02 - Strategy\3.StrategyConsequences.png
+		Images\Patterns\03.Behavioral\02 - Strategy\4.StrategyRelatedPatterns.png = Images\Patterns\03.Behavioral\02 - Strategy\4.StrategyRelatedPatterns.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Patterns\03.Behavioral\02 - Strategy\Strategy\Strategy.csproj", "{5F17B5B2-F1CC-42FF-B229-DFACF0F2470B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -256,6 +268,10 @@ Global
 		{D768E174-3FA6-4B25-ABAE-01973FC237E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D768E174-3FA6-4B25-ABAE-01973FC237E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D768E174-3FA6-4B25-ABAE-01973FC237E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F17B5B2-F1CC-42FF-B229-DFACF0F2470B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F17B5B2-F1CC-42FF-B229-DFACF0F2470B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F17B5B2-F1CC-42FF-B229-DFACF0F2470B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F17B5B2-F1CC-42FF-B229-DFACF0F2470B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -310,5 +326,8 @@ Global
 		{46ECA7D3-5583-48DE-A126-5C522399AA7A} = {C9DC2DC0-A04B-488E-9C5C-C0CA79B35C83}
 		{8E62015A-C34B-46F4-8FAD-C15AEEB18580} = {C8111486-ABDF-43F8-8062-A21FD1706245}
 		{D768E174-3FA6-4B25-ABAE-01973FC237E8} = {46ECA7D3-5583-48DE-A126-5C522399AA7A}
+		{2856BF7E-FC77-42E1-8600-E152B374CC32} = {C9DC2DC0-A04B-488E-9C5C-C0CA79B35C83}
+		{804FD5A1-C4C7-4CA1-A987-2CB230EF499B} = {C8111486-ABDF-43F8-8062-A21FD1706245}
+		{5F17B5B2-F1CC-42FF-B229-DFACF0F2470B} = {2856BF7E-FC77-42E1-8600-E152B374CC32}
 	EndGlobalSection
 EndGlobal
