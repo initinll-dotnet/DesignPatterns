@@ -180,6 +180,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 - Flyweight", "07 - Flyw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Patterns\02.Structural\07 - Flyweight\Flyweight\Flyweight.csproj", "{0DB7288E-16CD-461A-B331-3DAD485CD81E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Behavioral", "03.Behavioral", "{C9DC2DC0-A04B-488E-9C5C-C0CA79B35C83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - TemplateMethod", "01 - TemplateMethod", "{46ECA7D3-5583-48DE-A126-5C522399AA7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - TemplateMethod", "01 - TemplateMethod", "{8E62015A-C34B-46F4-8FAD-C15AEEB18580}"
+	ProjectSection(SolutionItems) = preProject
+		Images\Patterns\03.Behavioral\01 - TemplateMethod\1.TemplateMethod.png = Images\Patterns\03.Behavioral\01 - TemplateMethod\1.TemplateMethod.png
+		Images\Patterns\03.Behavioral\01 - TemplateMethod\2.TemplateMethodUsecases.png = Images\Patterns\03.Behavioral\01 - TemplateMethod\2.TemplateMethodUsecases.png
+		Images\Patterns\03.Behavioral\01 - TemplateMethod\3.TemplateMethodConsequences.PNG = Images\Patterns\03.Behavioral\01 - TemplateMethod\3.TemplateMethodConsequences.PNG
+		Images\Patterns\03.Behavioral\01 - TemplateMethod\4.TemplateMethodRelatedPatterns.PNG = Images\Patterns\03.Behavioral\01 - TemplateMethod\4.TemplateMethodRelatedPatterns.PNG
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "Patterns\03.Behavioral\01 - TemplateMethod\TemplateMethod\TemplateMethod.csproj", "{D768E174-3FA6-4B25-ABAE-01973FC237E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -238,6 +252,10 @@ Global
 		{0DB7288E-16CD-461A-B331-3DAD485CD81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DB7288E-16CD-461A-B331-3DAD485CD81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DB7288E-16CD-461A-B331-3DAD485CD81E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D768E174-3FA6-4B25-ABAE-01973FC237E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D768E174-3FA6-4B25-ABAE-01973FC237E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D768E174-3FA6-4B25-ABAE-01973FC237E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D768E174-3FA6-4B25-ABAE-01973FC237E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -288,5 +306,9 @@ Global
 		{81A1AAE9-3844-405F-9400-C0B3585A9DDA} = {A8FE2519-E293-47AA-A2FE-3B5D9C1ADFA2}
 		{72090214-3BA8-4D61-B26B-1BA5287D7EC9} = {E2D80E52-9C17-4A4D-8113-B619A1814D57}
 		{0DB7288E-16CD-461A-B331-3DAD485CD81E} = {81A1AAE9-3844-405F-9400-C0B3585A9DDA}
+		{C9DC2DC0-A04B-488E-9C5C-C0CA79B35C83} = {1126C9B7-DAD3-4016-A57B-3C61029A5888}
+		{46ECA7D3-5583-48DE-A126-5C522399AA7A} = {C9DC2DC0-A04B-488E-9C5C-C0CA79B35C83}
+		{8E62015A-C34B-46F4-8FAD-C15AEEB18580} = {C8111486-ABDF-43F8-8062-A21FD1706245}
+		{D768E174-3FA6-4B25-ABAE-01973FC237E8} = {46ECA7D3-5583-48DE-A126-5C522399AA7A}
 	EndGlobalSection
 EndGlobal
