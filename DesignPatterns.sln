@@ -254,6 +254,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - Chain of Responsibilit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "Patterns\03.Behavioral\06 - Chain of Responsibility\ChainOfResponsibility\ChainOfResponsibility.csproj", "{61025A2C-095E-4998-A619-9390C0CD178E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 - Observer", "07 - Observer", "{D48607CC-C801-4CAE-BB18-5E8066BB089F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07 - Observer", "07 - Observer", "{E2116963-43A6-4115-BD19-699C22561E72}"
+	ProjectSection(SolutionItems) = preProject
+		Images\Patterns\03.Behavioral\07 - Observer\1.Observer.png = Images\Patterns\03.Behavioral\07 - Observer\1.Observer.png
+		Images\Patterns\03.Behavioral\07 - Observer\2.ObserverUsecases.png = Images\Patterns\03.Behavioral\07 - Observer\2.ObserverUsecases.png
+		Images\Patterns\03.Behavioral\07 - Observer\3.ObserverConsequences.png = Images\Patterns\03.Behavioral\07 - Observer\3.ObserverConsequences.png
+		Images\Patterns\03.Behavioral\07 - Observer\4.ObserverRelatedPatterns.png = Images\Patterns\03.Behavioral\07 - Observer\4.ObserverRelatedPatterns.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Patterns\03.Behavioral\07 - Observer\Observer\Observer.csproj", "{F1AEE60A-2E1E-47DB-9BD5-D0CD7BCB8C3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -336,6 +348,10 @@ Global
 		{61025A2C-095E-4998-A619-9390C0CD178E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61025A2C-095E-4998-A619-9390C0CD178E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61025A2C-095E-4998-A619-9390C0CD178E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1AEE60A-2E1E-47DB-9BD5-D0CD7BCB8C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1AEE60A-2E1E-47DB-9BD5-D0CD7BCB8C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1AEE60A-2E1E-47DB-9BD5-D0CD7BCB8C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1AEE60A-2E1E-47DB-9BD5-D0CD7BCB8C3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -405,5 +421,8 @@ Global
 		{BE65738A-621A-416E-8C45-164387EDA20A} = {C9DC2DC0-A04B-488E-9C5C-C0CA79B35C83}
 		{54598368-57AF-492C-A276-1FF76FCBAC04} = {C8111486-ABDF-43F8-8062-A21FD1706245}
 		{61025A2C-095E-4998-A619-9390C0CD178E} = {BE65738A-621A-416E-8C45-164387EDA20A}
+		{D48607CC-C801-4CAE-BB18-5E8066BB089F} = {C9DC2DC0-A04B-488E-9C5C-C0CA79B35C83}
+		{E2116963-43A6-4115-BD19-699C22561E72} = {C8111486-ABDF-43F8-8062-A21FD1706245}
+		{F1AEE60A-2E1E-47DB-9BD5-D0CD7BCB8C3F} = {D48607CC-C801-4CAE-BB18-5E8066BB089F}
 	EndGlobalSection
 EndGlobal
