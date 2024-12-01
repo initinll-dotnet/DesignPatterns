@@ -314,6 +314,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11 - Interpreter", "11 - In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interpreter", "Patterns\03.Behavioral\11 - Interpreter\Interpreter\Interpreter.csproj", "{F77E6F8D-F7C9-4DFF-8DE7-0AE4A2243367}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Enterprise", "04.Enterprise", "{DD2D6294-EE44-4729-A28C-FCC7A1743456}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Enterprise", "04.Enterprise", "{864EA74E-5325-408B-BB6B-38D0D59FDA91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Repository", "01 - Repository", "{DEF59748-6D7D-469F-8DC8-06324DF019BB}"
+	ProjectSection(SolutionItems) = preProject
+		Images\Patterns\04.Enterprise\01 - Repository\1.Respository.png = Images\Patterns\04.Enterprise\01 - Repository\1.Respository.png
+		Images\Patterns\04.Enterprise\01 - Repository\2.GenericVsNonGenericRepositoy.png = Images\Patterns\04.Enterprise\01 - Repository\2.GenericVsNonGenericRepositoy.png
+		Images\Patterns\04.Enterprise\01 - Repository\3.GenericRepositoryAdvantages&Disadvantages.png = Images\Patterns\04.Enterprise\01 - Repository\3.GenericRepositoryAdvantages&Disadvantages.png
+		Images\Patterns\04.Enterprise\01 - Repository\4.NonGenericRepositoryAdvantages&Disadvantages.png = Images\Patterns\04.Enterprise\01 - Repository\4.NonGenericRepositoryAdvantages&Disadvantages.png
+		Images\Patterns\04.Enterprise\01 - Repository\5.MixGeneric&NonGenericRepository.PNG = Images\Patterns\04.Enterprise\01 - Repository\5.MixGeneric&NonGenericRepository.PNG
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Unit Of Work", "02 - Unit Of Work", "{179E73AE-6AFC-405B-BD8F-6F7420879925}"
+	ProjectSection(SolutionItems) = preProject
+		Images\Patterns\04.Enterprise\02 - Unit Of Work\1.UnitofWork.png = Images\Patterns\04.Enterprise\02 - Unit Of Work\1.UnitofWork.png
+		Images\Patterns\04.Enterprise\02 - Unit Of Work\2.EFCoreUnitofWork.png = Images\Patterns\04.Enterprise\02 - Unit Of Work\2.EFCoreUnitofWork.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterprisePatterns", "Patterns\04.Enterprise\EnterprisePatterns\EnterprisePatterns.csproj", "{D259FF70-A32B-46DB-80A5-538A7A98E939}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -416,6 +437,10 @@ Global
 		{F77E6F8D-F7C9-4DFF-8DE7-0AE4A2243367}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F77E6F8D-F7C9-4DFF-8DE7-0AE4A2243367}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F77E6F8D-F7C9-4DFF-8DE7-0AE4A2243367}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D259FF70-A32B-46DB-80A5-538A7A98E939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D259FF70-A32B-46DB-80A5-538A7A98E939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D259FF70-A32B-46DB-80A5-538A7A98E939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D259FF70-A32B-46DB-80A5-538A7A98E939}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -500,5 +525,10 @@ Global
 		{1E09B43D-B8DA-4A8C-837E-3FF731ABEF8D} = {C9DC2DC0-A04B-488E-9C5C-C0CA79B35C83}
 		{99D0A624-3C0D-4D5D-B271-A739A722A475} = {C8111486-ABDF-43F8-8062-A21FD1706245}
 		{F77E6F8D-F7C9-4DFF-8DE7-0AE4A2243367} = {1E09B43D-B8DA-4A8C-837E-3FF731ABEF8D}
+		{DD2D6294-EE44-4729-A28C-FCC7A1743456} = {1126C9B7-DAD3-4016-A57B-3C61029A5888}
+		{864EA74E-5325-408B-BB6B-38D0D59FDA91} = {C1398959-F647-4BED-A412-6529CCB5818F}
+		{DEF59748-6D7D-469F-8DC8-06324DF019BB} = {864EA74E-5325-408B-BB6B-38D0D59FDA91}
+		{179E73AE-6AFC-405B-BD8F-6F7420879925} = {864EA74E-5325-408B-BB6B-38D0D59FDA91}
+		{D259FF70-A32B-46DB-80A5-538A7A98E939} = {DD2D6294-EE44-4729-A28C-FCC7A1743456}
 	EndGlobalSection
 EndGlobal
