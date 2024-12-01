@@ -242,6 +242,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Mediator", "05 - Media
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Patterns\03.Behavioral\05 - Mediator\Mediator\Mediator.csproj", "{AC6B6790-05D9-4F68-B9F3-7FD45C8B324E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - Chain of Responsibility", "06 - Chain of Responsibility", "{BE65738A-621A-416E-8C45-164387EDA20A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - Chain of Responsibility", "06 - Chain of Responsibility", "{54598368-57AF-492C-A276-1FF76FCBAC04}"
+	ProjectSection(SolutionItems) = preProject
+		Images\Patterns\03.Behavioral\06 - Chain of Responsibility\1.ChainOfResponsibility.png = Images\Patterns\03.Behavioral\06 - Chain of Responsibility\1.ChainOfResponsibility.png
+		Images\Patterns\03.Behavioral\06 - Chain of Responsibility\2.ChainOfResponsibilityUsecases.png = Images\Patterns\03.Behavioral\06 - Chain of Responsibility\2.ChainOfResponsibilityUsecases.png
+		Images\Patterns\03.Behavioral\06 - Chain of Responsibility\3.ChainOfResponsibilityConsequences.PNG = Images\Patterns\03.Behavioral\06 - Chain of Responsibility\3.ChainOfResponsibilityConsequences.PNG
+		Images\Patterns\03.Behavioral\06 - Chain of Responsibility\4.ChainOfResponsibilityRelatedPatterns.png = Images\Patterns\03.Behavioral\06 - Chain of Responsibility\4.ChainOfResponsibilityRelatedPatterns.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "Patterns\03.Behavioral\06 - Chain of Responsibility\ChainOfResponsibility\ChainOfResponsibility.csproj", "{61025A2C-095E-4998-A619-9390C0CD178E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -320,6 +332,10 @@ Global
 		{AC6B6790-05D9-4F68-B9F3-7FD45C8B324E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC6B6790-05D9-4F68-B9F3-7FD45C8B324E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC6B6790-05D9-4F68-B9F3-7FD45C8B324E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61025A2C-095E-4998-A619-9390C0CD178E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61025A2C-095E-4998-A619-9390C0CD178E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61025A2C-095E-4998-A619-9390C0CD178E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61025A2C-095E-4998-A619-9390C0CD178E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -386,5 +402,8 @@ Global
 		{9AD2939A-AA94-4B19-99F1-BCAB234B9C58} = {C9DC2DC0-A04B-488E-9C5C-C0CA79B35C83}
 		{23CE90BC-676D-46E7-82FB-CE28065A61AF} = {C8111486-ABDF-43F8-8062-A21FD1706245}
 		{AC6B6790-05D9-4F68-B9F3-7FD45C8B324E} = {9AD2939A-AA94-4B19-99F1-BCAB234B9C58}
+		{BE65738A-621A-416E-8C45-164387EDA20A} = {C9DC2DC0-A04B-488E-9C5C-C0CA79B35C83}
+		{54598368-57AF-492C-A276-1FF76FCBAC04} = {C8111486-ABDF-43F8-8062-A21FD1706245}
+		{61025A2C-095E-4998-A619-9390C0CD178E} = {BE65738A-621A-416E-8C45-164387EDA20A}
 	EndGlobalSection
 EndGlobal
