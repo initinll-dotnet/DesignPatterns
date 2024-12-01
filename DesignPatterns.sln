@@ -230,6 +230,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Memento", "04 - Mement
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Patterns\03.Behavioral\04 - Memento\Memento\Memento.csproj", "{400BF2E5-D470-49D0-8D56-FA840815D849}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Mediator", "05 - Mediator", "{9AD2939A-AA94-4B19-99F1-BCAB234B9C58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - Mediator", "05 - Mediator", "{23CE90BC-676D-46E7-82FB-CE28065A61AF}"
+	ProjectSection(SolutionItems) = preProject
+		Images\Patterns\03.Behavioral\05 - Mediator\1.Mediator.png = Images\Patterns\03.Behavioral\05 - Mediator\1.Mediator.png
+		Images\Patterns\03.Behavioral\05 - Mediator\2.MediatorUsecases.png = Images\Patterns\03.Behavioral\05 - Mediator\2.MediatorUsecases.png
+		Images\Patterns\03.Behavioral\05 - Mediator\3.MediatorConsequences.png = Images\Patterns\03.Behavioral\05 - Mediator\3.MediatorConsequences.png
+		Images\Patterns\03.Behavioral\05 - Mediator\4.MediatorRelatedPatterns.png = Images\Patterns\03.Behavioral\05 - Mediator\4.MediatorRelatedPatterns.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator", "Patterns\03.Behavioral\05 - Mediator\Mediator\Mediator.csproj", "{AC6B6790-05D9-4F68-B9F3-7FD45C8B324E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -304,6 +316,10 @@ Global
 		{400BF2E5-D470-49D0-8D56-FA840815D849}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{400BF2E5-D470-49D0-8D56-FA840815D849}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{400BF2E5-D470-49D0-8D56-FA840815D849}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC6B6790-05D9-4F68-B9F3-7FD45C8B324E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC6B6790-05D9-4F68-B9F3-7FD45C8B324E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC6B6790-05D9-4F68-B9F3-7FD45C8B324E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC6B6790-05D9-4F68-B9F3-7FD45C8B324E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -367,5 +383,8 @@ Global
 		{A7608AB3-4A86-49AB-8D3C-196A9E75EF80} = {C9DC2DC0-A04B-488E-9C5C-C0CA79B35C83}
 		{9C699FB1-D107-49C7-B232-958AC0AD11A4} = {C8111486-ABDF-43F8-8062-A21FD1706245}
 		{400BF2E5-D470-49D0-8D56-FA840815D849} = {A7608AB3-4A86-49AB-8D3C-196A9E75EF80}
+		{9AD2939A-AA94-4B19-99F1-BCAB234B9C58} = {C9DC2DC0-A04B-488E-9C5C-C0CA79B35C83}
+		{23CE90BC-676D-46E7-82FB-CE28065A61AF} = {C8111486-ABDF-43F8-8062-A21FD1706245}
+		{AC6B6790-05D9-4F68-B9F3-7FD45C8B324E} = {9AD2939A-AA94-4B19-99F1-BCAB234B9C58}
 	EndGlobalSection
 EndGlobal
