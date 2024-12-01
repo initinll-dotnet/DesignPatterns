@@ -278,6 +278,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08 - State", "08 - State", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "Patterns\03.Behavioral\08 - State\State\State.csproj", "{278BA93A-1595-4C76-AD4B-788D58927345}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 - Iterator", "09 - Iterator", "{A4ADFBC6-787E-4BD3-9754-9E5E7335BBE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09 - Iterator", "09 - Iterator", "{DB5A83AF-5C37-482E-819B-E3BF33F46556}"
+	ProjectSection(SolutionItems) = preProject
+		Images\Patterns\03.Behavioral\09 - Iterator\1.Iterator.png = Images\Patterns\03.Behavioral\09 - Iterator\1.Iterator.png
+		Images\Patterns\03.Behavioral\09 - Iterator\2.IteratorUsecases.png = Images\Patterns\03.Behavioral\09 - Iterator\2.IteratorUsecases.png
+		Images\Patterns\03.Behavioral\09 - Iterator\3.IteratorConsequences.png = Images\Patterns\03.Behavioral\09 - Iterator\3.IteratorConsequences.png
+		Images\Patterns\03.Behavioral\09 - Iterator\4.IteratorRelatedPatterns.png = Images\Patterns\03.Behavioral\09 - Iterator\4.IteratorRelatedPatterns.png
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Patterns\03.Behavioral\09 - Iterator\Iterator\Iterator.csproj", "{7CC58B90-AD2B-45ED-AA0C-62FE5DA7B6B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -368,6 +380,10 @@ Global
 		{278BA93A-1595-4C76-AD4B-788D58927345}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{278BA93A-1595-4C76-AD4B-788D58927345}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{278BA93A-1595-4C76-AD4B-788D58927345}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CC58B90-AD2B-45ED-AA0C-62FE5DA7B6B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC58B90-AD2B-45ED-AA0C-62FE5DA7B6B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC58B90-AD2B-45ED-AA0C-62FE5DA7B6B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC58B90-AD2B-45ED-AA0C-62FE5DA7B6B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -443,5 +459,8 @@ Global
 		{E028C6DE-ACD9-44DD-9F10-D33D8EEBB6C2} = {C9DC2DC0-A04B-488E-9C5C-C0CA79B35C83}
 		{CA968B7A-A979-41CF-B513-1B01B82BF87A} = {C8111486-ABDF-43F8-8062-A21FD1706245}
 		{278BA93A-1595-4C76-AD4B-788D58927345} = {E028C6DE-ACD9-44DD-9F10-D33D8EEBB6C2}
+		{A4ADFBC6-787E-4BD3-9754-9E5E7335BBE4} = {C9DC2DC0-A04B-488E-9C5C-C0CA79B35C83}
+		{DB5A83AF-5C37-482E-819B-E3BF33F46556} = {C8111486-ABDF-43F8-8062-A21FD1706245}
+		{7CC58B90-AD2B-45ED-AA0C-62FE5DA7B6B3} = {A4ADFBC6-787E-4BD3-9754-9E5E7335BBE4}
 	EndGlobalSection
 EndGlobal
