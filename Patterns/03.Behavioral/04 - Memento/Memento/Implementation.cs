@@ -1,4 +1,4 @@
-﻿namespace Command;
+﻿namespace Memento;
 
 public class Employee
 {
@@ -105,13 +105,29 @@ public interface ICommand
 }
 
 /// <summary>
-/// ConcreteCommand
+/// Memento
+/// </summary>
+public class AddEmployeeToManagerListMemento
+{
+    public int ManagerId { get; private set; }
+    public Employee? Employee { get; private set; }
+
+    public AddEmployeeToManagerListMemento(int managerId, Employee? employee)
+    {
+        ManagerId = managerId;
+        Employee = employee;
+    }
+}
+
+/// <summary>
+/// ConcreteCommand & Originator
 /// </summary>
 public class AddEmployeeToManagerListCommand : ICommand
 {
     private readonly IEmployeeManagerRepository _employeeManagerRepository;
-    private readonly int _managerId;
-    private readonly Employee? _employee;
+
+    private int _managerId;
+    private Employee? _employee;
 
     public AddEmployeeToManagerListCommand(
         IEmployeeManagerRepository employeeManagerRepository,
@@ -119,8 +135,20 @@ public class AddEmployeeToManagerListCommand : ICommand
         Employee? employee)
     {
         _employeeManagerRepository = employeeManagerRepository;
+
         _managerId = managerId;
         _employee = employee;
+    }
+
+    public AddEmployeeToManagerListMemento CreateMemento()
+    {
+        return new AddEmployeeToManagerListMemento(_managerId, _employee);
+    }
+
+    public void RestoreMemento(AddEmployeeToManagerListMemento memento)
+    {
+        _managerId = memento.ManagerId;
+        _employee = memento.Employee;
     }
 
     public bool CanExecute()
@@ -163,34 +191,46 @@ public class AddEmployeeToManagerListCommand : ICommand
 }
 
 /// <summary>
-/// Invoker
+/// Invoker & Caretaker
 /// </summary>
 public class CommandManager
 {
-    private readonly Stack<ICommand> _commands = new();
+    private readonly Stack<AddEmployeeToManagerListMemento> _mementos = new();
+    
+    private AddEmployeeToManagerListCommand? _command;
 
     public void Invoke(ICommand command)
     {
+        // if the command has not been stored yet, store it - we will
+        // reuse it instead of storing different instances
+
+        if (_command == null)
+        {
+            _command = (AddEmployeeToManagerListCommand)command;
+        }
+
         if (command.CanExecute())
         {
             command.Execute();
-            _commands.Push(command);
+            _mementos.Push(((AddEmployeeToManagerListCommand)command).CreateMemento());
         }
     }
 
     public void Undo()
     {
-        if (_commands.Any())
+        if (_mementos.Any())
         {
-            _commands.Pop()?.Undo();
+            _command?.RestoreMemento(_mementos.Pop());
+            _command?.Undo();
         }
     }
 
     public void UndoAll()
     {
-        while (_commands.Any())
+        while (_mementos.Any())
         {
-            _commands.Pop()?.Undo();
+            _command?.RestoreMemento(_mementos.Pop());
+            _command?.Undo();
         }
     }
 }

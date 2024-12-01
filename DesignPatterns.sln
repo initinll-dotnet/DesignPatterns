@@ -218,6 +218,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Command", "03 - Comman
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Patterns\03.Behavioral\03 - Command\Command\Command.csproj", "{A69185B5-410A-4D28-B767-4C8665C97104}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Memento", "04 - Memento", "{A7608AB3-4A86-49AB-8D3C-196A9E75EF80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Memento", "04 - Memento", "{9C699FB1-D107-49C7-B232-958AC0AD11A4}"
+	ProjectSection(SolutionItems) = preProject
+		Images\Patterns\03.Behavioral\04 - Memento\1.Memento.png = Images\Patterns\03.Behavioral\04 - Memento\1.Memento.png
+		Images\Patterns\03.Behavioral\04 - Memento\2.MementoUsecases.png = Images\Patterns\03.Behavioral\04 - Memento\2.MementoUsecases.png
+		Images\Patterns\03.Behavioral\04 - Memento\3.MementoConsequences.png = Images\Patterns\03.Behavioral\04 - Memento\3.MementoConsequences.png
+		Images\Patterns\03.Behavioral\04 - Memento\4.MementoRelatedPatterns.PNG = Images\Patterns\03.Behavioral\04 - Memento\4.MementoRelatedPatterns.PNG
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memento", "Patterns\03.Behavioral\04 - Memento\Memento\Memento.csproj", "{400BF2E5-D470-49D0-8D56-FA840815D849}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -288,6 +300,10 @@ Global
 		{A69185B5-410A-4D28-B767-4C8665C97104}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A69185B5-410A-4D28-B767-4C8665C97104}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A69185B5-410A-4D28-B767-4C8665C97104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{400BF2E5-D470-49D0-8D56-FA840815D849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{400BF2E5-D470-49D0-8D56-FA840815D849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{400BF2E5-D470-49D0-8D56-FA840815D849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{400BF2E5-D470-49D0-8D56-FA840815D849}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -348,5 +364,8 @@ Global
 		{3B76684C-1591-447B-9A3C-F6AD9740C616} = {C9DC2DC0-A04B-488E-9C5C-C0CA79B35C83}
 		{9B2A8CB6-F1AD-4A3B-A620-251E50F5E0F0} = {C8111486-ABDF-43F8-8062-A21FD1706245}
 		{A69185B5-410A-4D28-B767-4C8665C97104} = {3B76684C-1591-447B-9A3C-F6AD9740C616}
+		{A7608AB3-4A86-49AB-8D3C-196A9E75EF80} = {C9DC2DC0-A04B-488E-9C5C-C0CA79B35C83}
+		{9C699FB1-D107-49C7-B232-958AC0AD11A4} = {C8111486-ABDF-43F8-8062-A21FD1706245}
+		{400BF2E5-D470-49D0-8D56-FA840815D849} = {A7608AB3-4A86-49AB-8D3C-196A9E75EF80}
 	EndGlobalSection
 EndGlobal
